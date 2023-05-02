@@ -11,7 +11,7 @@ To use the Minishell program, you need to follow these steps:
 + The program supports various built-in commands like cd, echo, export, env, pwd, and unset.
 + You can use pipes to connect multiple commands together. To use a pipe, you need to use the | symbol. For example, to pipe the output of one command to another, you can type command1 | command2.
 + The Minishell program supports multiple pipes as well. For example, to pipe the output of one command to two other commands, you can type command1 | command2 | command3.
-+ You can also execute external commands by typing in the command name and its arguments.
++ You can also execute external commands by typing in the command name and its arguments. For example ls, pwd, wc.
 
 The Minishell program uses the standard Unix system calls to execute commands and manage processes. It supports standard input/output redirection using the < and > symbols, environment variables using the $ symbol, and signals like ctrl-C and ctrl-D.
 
